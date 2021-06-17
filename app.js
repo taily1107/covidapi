@@ -55,7 +55,7 @@ function getCountryById(e) {
     .catch((error) => console.log("Error"));
 }
 function getCovidCountry() {
-  fetch("https://coronavirus-tracker-api.herokuapp.com/v2/locations/271")
+  fetch("https://coronavirus-tracker-api.herokuapp.com/v2/locations/273")
     .then((res) => res.json())
     .then((data) => {
       let id = data.location.id;

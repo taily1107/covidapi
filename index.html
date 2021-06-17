@@ -16,11 +16,11 @@
   <div class="main">
 
     <div class="header_nav">
-      <h2>Diễn Biến <span style="color: red;">COVID</span> </h2>
-    
+      <h2><span style="color: red;">COVID</span> </h2>
+      <h2>Ngày: <span id="capnhat"></span></2>
     </div>
     <div class="word container">
-      <h2 >TOÀN THẾ GIỚI</2>
+      <h2>TOÀN THẾ GIỚI</2>
         <div class="row w-test">
           <div class="col-md-4">
             <p>Ca nhiễm : <span id="tong_canhiem"></span> ca</p>
@@ -32,101 +32,104 @@
             <p>Phục hồi : <span id="tong_phuchoi"></span></p>
           </div>
         </div>
-        
-        
-        
+
+
+
     </div>
 
     <div class="container capnhat">
-     <div class="row">
-       <div class="col-md-6">
-         <h2>CẬP NHẬT MỚI NHẤT</h2>
-         <p>Ngày: <span id="capnhat"></span></p>
-       </div>
-       <div class="col-md-6">
-         <p>Tình trạng covid tại : <span id="title" style="color: red;"></span></p>
-         <div class="option">
-           <select id="select_world">
-             <option value="">Chọn quốc gia</option>
-           </select>
-         </div>
-  
-       </div>
+     
+        <div class="">
+          <p id="title" style="color: red;"></p>
+          <div class="option">
+            <select id="select_world">
+              <option value="">Chọn quốc gia</option>
+            </select>
+          </div>
 
-     </div>
-      <div class="container">
-        <div class="chart_total ">
-          <table class="table table-striped ">
-             <thead>
-               <tr>
-                 <th>ID</th>
-                 <hr>
-                 <th>Quốc gia</th>
-                 <th>Mã Quốc gia</th>
-                 <th>Hồi phục</th>
-               </tr>
-             </thead>
-             <tbody>
-               <tr>
-                 <td><div id="id"></div></td>
-                 <td><span style="color:red" id="quocgia"></span><span style="color:red" id="tinh"></span></td>
-                 <td><div id="code"></div></td>
-                 <td><div id="hoiphuc"></div></td>
-                 
-               </tr>
-              
-             </tbody>
-           </table>
        
-    
-  
-   </div>
+
       </div>
-      <div >
-       
-        <div class="row">
-          <div class="col-md-6">
-            <div class="f1">
-              <h4>DÂN SỐ</h4>
-              <p id="danso"></p>
-            </div>
-          </div>
-          
-          
-          <div class="col-md-6 ">
-            <div class="mac-moi">
-              <h4>TỔNG SỐ CA MẮC</h4>
-              <p id="canhiem"></p>
-            
-            </div>
-            
-          </div>
-          <div class="col-md-6">
-            <div class="tuvong">
-              <h4>SỐ CA TỬ VONG</h4>
-              <p id="tuvong"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="phantram">
-              <h4>PHẦN TRĂM TỬ VONG</h4>
-              <p id="phantram"></p>
-            </div>
-          </div>
-          
-          
-             
-          
+      <div class="container ">
+        <div class="chart_total">
+          <table class="table table-striped ">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Quốc gia</th>
+                <th>Mã </th>
+                <th>Hồi phục</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div id="id"></div>
+                </td>
+                <td><span style="color:red" id="quocgia"></span><span style="color:red" id="tinh"></span></td>
+                <td>
+                  <div id="code"></div>
+                </td>
+                <td>
+                  <div id="hoiphuc"></div>
+                </td>
+
+              </tr>
+
+            </tbody>
+          </table>
+
+
+
         </div>
       </div>
+     
     </div>
-    
+    <div class="container capnhat2">
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="f1">
+            <h4>DÂN SỐ</h4>
+            <p id="danso"></p>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 ">
+          <div class="mac-moi">
+            <h4>TỔNG SỐ CA MẮC</h4>
+            <p id="canhiem"></p>
+
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="tuvong">
+            <h4>SỐ CA TỬ VONG</h4>
+            <p id="tuvong"style="color: red;"></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="phantram">
+            <h4>PHẦN TRĂM TỬ VONG</h4>
+            <p id="phantram"></p>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
   </div>
- 
+
 
 </body>
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript" src="app.js"></script>
 
 </html>
