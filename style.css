@@ -7,7 +7,7 @@ body {
 
 .main {
   /* font-family: 'Big Shoulders Stencil Display', cursive; */
-  font-family: "Viaoda Libre", cursive;
+  /* font-family: "Viaoda Libre", cursive; */
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -18,61 +18,66 @@ body {
   height: 80px;
   border: 2px solid;
   background-color: aliceblue;
-  margin-bottom:5px ;
+  margin-bottom: 5px;
 }
 .header_nav h2 {
   line-height: 80px;
   font-size: 40px;
 }
-.capnhat{
-align-items: center;
+.capnhat {
+  align-items: center;
 }
 
-.capnhat{
-  background-color: aliceblue;
+.capnhat {
+  background-color: rgb(241, 243, 245);
   border-radius: 50px;
-  margin-bottom:5px ;
-font-size: 25px;
-line-height: 50px;
-
+  margin-bottom: 5px;
+  padding-top: 10px;
+  font-size: 25px;
+  line-height: 50px;
 }
-.mac-moi{
-  background-color:rgba(245, 118, 59, 0.2) ; 
-  border: 2px solid rgb(247, 6, 6);
-  border-radius:50px;
+.mac-moi {
+  background-color: rgba(245, 84, 10, 0.5);
+  border: 2px solid rgb(212, 206, 206);
+  border-radius: 50px;
   min-height: 100px;
   padding-top: 10px;
   margin: 2px;
 }
-.f1{
-  background-color:rgba(237, 241, 21, 0.2) ; 
+.f1 {
+  background-color: rgba(237, 241, 21, 0.2);
   border: 2px solid rgb(223, 213, 213);
-  border-radius:50px;
+  border-radius: 50px;
   min-height: 100px;
   padding-top: 10px;
 }
-.tuvong{
-  background-color:rgba(250, 8, 8, 0.2) ; 
+.tuvong {
+  background-color: rgba(250, 8, 8, 0.2);
   border: 2px solid rgb(248, 8, 8);
-  border-radius:50px;
+  border-radius: 50px;
   min-height: 100px;
   padding-top: 10px;
   margin-bottom: 10px;
 }
-.phantram{
-  background-color:rgba(97, 116, 101, 0.2) ; 
+.phantram {
+  background-color: rgba(97, 116, 101, 0.2);
   border: 2px solid rgb(245, 238, 238);
-  border-radius:50px;
+  border-radius: 50px;
   min-height: 100px;
   padding-top: 5px;
   margin-bottom: 10px;
 }
-.word{
-  background: linear-gradient(40deg, #e3ec93b8, #4cb35ad1);
+.word {
+  background: linear-gradient(90deg, #cdd1a4b8, #84ca8dd1);
   padding: 10px;
-  margin-bottom:5px ;
+  margin-bottom: 5px;
   border-radius: 20px;
-  font-size: 18px;
+  font-size: 10px;
+}
+.w-test {
+  padding-top: 25px;
+  font-size: 20px;
+  color: red;
 }
 
 ul.list_world {
@@ -81,24 +86,25 @@ ul.list_world {
   list-style: none;
 }
 ul.list_world li {
-border: 1px dashed #000;
-width: 24%;
-padding: 10px;
-margin: 3px;
-background: beige;
-float: left;
-height: 280px;
+  border: 1px dashed #000;
+  width: 24%;
+  padding: 10px;
+  margin: 3px;
+  background: beige;
+  float: left;
+  height: 280px;
 }
-#select_world{
+#select_world {
   width: 200px;
   align-items: center;
   border-radius: 5px;
 }
-.chart_total{
+.chart_total {
   font-size: 15px;
   text-align: center;
-  background-color:#7edf8bd1;
+  background-color: #7edf8bd1;
   border-radius: 25px;
-  
 }
-
+.table-striped {
+  font-size: 15px;
+}
