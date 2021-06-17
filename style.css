@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300&family=Viaoda+Libre&display=swap");
+
+.main {
+  /* font-family: 'Big Shoulders Stencil Display', cursive; */
+  font-family: "Viaoda Libre", cursive;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(40deg, #a0e9b0b8, #c7ccecd1);
+  min-height: 100vh;
+}
+.header_nav {
+  height: 80px;
+  border: 2px solid;
+  background-color: aliceblue;
+  margin-bottom:5px ;
+}
+.header_nav h2 {
+  line-height: 80px;
+  font-size: 40px;
+}
+.capnhat{
+align-items: center;
+}
+
+.capnhat{
+  background-color: aliceblue;
+  border-radius: 50px;
+  margin-bottom:5px ;
+font-size: 25px;
+line-height: 50px;
+
+}
+.mac-moi{
+  background-color:rgba(245, 118, 59, 0.2) ; 
+  border: 2px solid rgb(247, 6, 6);
+  border-radius:50px;
+  min-height: 100px;
+  padding-top: 10px;
+  margin: 2px;
+}
+.f1{
+  background-color:rgba(237, 241, 21, 0.2) ; 
+  border: 2px solid rgb(223, 213, 213);
+  border-radius:50px;
+  min-height: 100px;
+  padding-top: 10px;
+}
+.tuvong{
+  background-color:rgba(250, 8, 8, 0.2) ; 
+  border: 2px solid rgb(248, 8, 8);
+  border-radius:50px;
+  min-height: 100px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.phantram{
+  background-color:rgba(97, 116, 101, 0.2) ; 
+  border: 2px solid rgb(245, 238, 238);
+  border-radius:50px;
+  min-height: 100px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+.word{
+  background: linear-gradient(40deg, #e3ec93b8, #4cb35ad1);
+  padding: 10px;
+  margin-bottom:5px ;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+ul.list_world {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ul.list_world li {
+border: 1px dashed #000;
+width: 24%;
+padding: 10px;
+margin: 3px;
+background: beige;
+float: left;
+height: 280px;
+}
+#select_world{
+  width: 200px;
+  align-items: center;
+  border-radius: 5px;
+}
+.chart_total{
+  font-size: 15px;
+  text-align: center;
+  background-color:#7edf8bd1;
+  border-radius: 25px;
+  
+}
+
